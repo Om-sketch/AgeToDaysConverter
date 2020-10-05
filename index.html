@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>AgeInDays</title>
+</head>
+<body>
+    <div class="container-1">
+        <h2>Your age in days</h2>
+        <h3>Steps to Follow:</h3>
+            <ol type="1">
+                <li>Select the button Click Me to enter your birth date</li>
+                <li>After entering the date your age in days will be displayed.</li>
+                <li>To reset and renter the date click Reset button</li>
+            </ol>
+        <p>Note:Please Enter the birth year only when the prompt ask for birthdate.</p>
+        <div class="flex-box-container-1">
+            <div>
+                <button class="btn btn-primary" onclick="ageInDays()">Click Date</button>
+            </div>
+            <div>
+                <button class="btn btn-danger" onclick="reset()">Reset</button>
+            </div>
+        </div>
+        <hr>
+        <div class="flex-box-container-1">
+            <div id="flex-box-result"></div>
+            </div>
+    </div>
+    
+<script src="script.js"></script>
+</body>
+</html>
